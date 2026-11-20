@@ -14,7 +14,7 @@ const path = require('node:path');
 const { execFileSync } = require('node:child_process');
 const { createHash } = require('node:crypto');
 
-const ROOT = path.resolve(__dirname, '..', '..', '..');
+const ROOT = path.resolve(__dirname, '..', '..');
 const LEGACY = 'contracts/build';
 const SCRIPT = 'contracts/scripts/build.sh';
 const CHECKSUM = 'contracts/scripts/build.sh.sha256';
